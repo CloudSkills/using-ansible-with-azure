@@ -1,0 +1,20 @@
+{
+    "publicipaddresses": [
+        {
+            "allocation_method": "static",
+            "dns_settings": {},
+            "etag": "W/\"3784787f-6752-46ff-8640-bf1fa3efcf0e\"",
+            "id": "/subscriptions/FAKEsubID-12341234adfasdf2-34341-131dfasd3/resourceGroups/rg-cs-ansible/providers/Microsoft.Network/publicIPAddresses/pip-cs-web",
+            "idle_timeout": 4,
+            "ip_address": "40.12.123.45",
+            "ip_tags": {},
+            "location": "eastus",
+            "name": "pip-cs-web",
+            "provisioning_state": "Succeeded",
+            "sku": "Basic",
+            "tags": null,
+            "type": "Microsoft.Network/publicIPAddresses",
+            "version": "ipv4"
+        }
+    ]
+}

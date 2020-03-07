@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+  tasks:
+    - name: Create resource group
+      azure_rm_resourcegroup:
+        name: rg-cs-ansible
+        location: eastus
+      register: rg
+    - debug:
+        var: rg
