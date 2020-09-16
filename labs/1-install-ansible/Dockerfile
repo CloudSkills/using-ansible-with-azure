@@ -12,3 +12,5 @@ RUN  yum check-update; \
 
 RUN  pip install ansible[azure]; \
      pip install pywinrm;
+     
+RUN pip2.7 install cryptography==2.2.2
